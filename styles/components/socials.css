@@ -1,0 +1,27 @@
+.social-list {
+    display: flex;
+}
+
+.social-list__link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.social-list__link svg {
+    fill: #B3B3B3;
+    transition: .3s;
+}
+
+.social-list__link:hover svg {
+    fill: #000000;
+}
+
+.social-list__item {
+    margin-right: 10px;
+}
+
+.social-list__item:last-child {
+    margin-right: 0;
+}

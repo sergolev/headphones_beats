@@ -1,0 +1,13 @@
+@import url('./layout/layout.css');
+@import url('./components/header.css');
+@import url('./components/logo.css');
+@import url('./components/nav.css');
+@import url('./components/address.css');
+@import url('./components/socials.css');
+@import url('./components/btn.css');
+@import url('./components/section_main.css');
+@import url('./components/advantages.css');
+@import url('./components/reviews.css');
+@import url('./components/order.css');
+@import url('./components/map.css');
+@import url('./components/footer.css');

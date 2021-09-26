@@ -1,0 +1,22 @@
+.site-nav {
+    display: inline-block;
+    position: relative;
+    align-items: center;
+} 
+
+.site-nav__link {
+    text-decoration: none;
+    align-items: center;
+    transition: .3s;
+    font-size: 18px;
+    color: #292929;
+}
+
+.site-nav__link:hover {
+    color: #E01F3D;
+}
+
+.site-nav__item {
+    display: inline-block;
+    margin-right: 25px;
+}

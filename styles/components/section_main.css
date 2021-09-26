@@ -1,0 +1,115 @@
+.main__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.main__description {
+    margin-top: 30px;
+    max-width: 400px;
+    position: relative;
+}
+
+.main__title h1 {
+    font-family: "PlayBold", sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #292929;
+    margin: 0;
+}
+
+.main__text {
+    max-width: 332px;
+    font-size: 21px;
+    line-height: 25px;
+    color: #292929;
+    margin-top: 22px;
+}
+
+.main__action {
+    margin-top: 35px;
+}
+
+.main__advantages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 514px;
+    margin-top: 65px;
+}
+
+.main__advantage {
+    display: flex;
+    align-items: center;
+    width: 166px;
+}
+
+.main__advantage img {
+    width: 41px;
+    height: 41px;
+    margin-right: 11px;
+}
+
+.main__advantage span {
+    font-family: 'PlayRegular', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 114px;
+    color: #292929;
+}
+
+.main__image {
+    position: relative;
+    left: 32px;
+    width: 469px;
+    height: 469px;
+}
+
+.main__switcher {
+    position: relative;
+    left: 50px;
+}
+
+.main__switcher_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background: transparent;
+    border: 1.5px solid transparent;
+    transition: .3s all;
+    margin: 2px 0;
+}
+
+.main__switcher_item_link {
+    display: block;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    background: #ACACAC;
+    transition: .3s all;
+}
+
+.main__switcher_item:hover, .main__switcher_item_active {
+    border: 1.5px solid #E01F3D;
+    cursor: pointer;
+}
+
+.main__switcher_item:hover .main__switcher_item_link, .main__switcher_item_active .main__switcher_item_link {
+    background: #E01F3D;
+}
+
+.main__rectangle {
+    width: 46.32px;
+    height: 10.38px;
+    background: #C4C4C4;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: -4px;
+    right: 25px;
+    z-index: 10;
+}
