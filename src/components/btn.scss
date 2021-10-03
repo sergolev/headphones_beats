@@ -1,0 +1,19 @@
+.btn {
+    width: 163px;
+    box-sizing: border-box;
+    padding: 17px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    font-family: PlayBold, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    background: #E01F3D;
+    border-radius: 100px;
+    color: #FFFFFF;
+    transition: .3s;
+    text-transform: uppercase;
+    &:hover {
+        background: #CA1B36;
+    }
+}

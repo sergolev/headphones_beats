@@ -1,0 +1,98 @@
+.reviews {
+  background: #FFFFFF;
+}
+.reviews .reviews__container {
+  padding: 64px 0;
+  position: relative;
+}
+.reviews .reviews__container .reviews__title {
+  position: relative;
+  z-index: 5;
+}
+.reviews .reviews__container .review {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  background: #F8FAF9;
+  padding: 42px;
+  position: relative;
+}
+.reviews .reviews__container .review .review__image {
+  max-width: 253px;
+  margin-right: 40px;
+}
+.reviews .reviews__container .review .review__description {
+  max-width: 470px;
+}
+.reviews .reviews__container .review .review__description .review__title {
+  font-family: "PlayBold", sans-serif;
+  font-size: 24px;
+  color: #292929;
+  margin-bottom: 27px;
+}
+.reviews .reviews__container .review .review__description .review__text {
+  font-family: "PlayRegular", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+}
+.reviews .reviews__container .review .review__description .review__author {
+  font-family: "PlayBold", sans-serif;
+  font-size: 18px;
+  color: #292929;
+  margin-top: 38px;
+}
+.reviews .reviews__container .review .review__circle {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  position: absolute;
+  top: -61px;
+  left: calc(50% - 41.5px);
+  background: #FFFFFF;
+}
+.reviews .reviews__container .review__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.reviews .reviews__container .review__nav .review__nav_item {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin-right: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.reviews .reviews__container .review__nav .review__nav_item:last-child {
+  margin-right: 0;
+}
+.reviews .reviews__container .review__nav .review__nav_item .review__nav_item_border {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  border: 4px solid transparent;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.reviews .reviews__container .review__nav .review__nav_item:hover .review__nav_item_border, .reviews .reviews__container .review__nav .review__nav_item.review__nav_item_active .review__nav_item_border {
+  border: 4px solid #E01F3D;
+}
+.reviews .reviews__container .reviews__circle {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  bottom: -17.5px;
+  left: 0;
+  background: #868686;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+/*# sourceMappingURL=reviews.css.map */

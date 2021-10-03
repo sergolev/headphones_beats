@@ -1,0 +1,28 @@
+.header {
+    font-size: 14px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    margin: 0 auto 43px auto;
+    .header__col {
+        display: flex;
+        align-items: center;
+        .header__logo {
+            display: inline-block;
+            margin-right: 38px;
+        }
+    }
+    .header__col--align--right {
+        justify-content: flex-end;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
+
+
+

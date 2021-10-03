@@ -1,0 +1,170 @@
+.order {
+  background-image: url("../../img/cta.png");
+  background-size: 100% 100%;
+  background-position: center;
+
+  .order__container {
+    padding: 68px 0 85px 0;
+
+    .order__title {
+      color: #FFFFFF;
+    }
+
+    .order__form {
+      margin-top: 60px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      color: #FFFFFF;
+
+      .order__form_inputs {
+        width: 462px;
+
+        .order__form_flex {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .order__form_name, .order__form_phone {
+            width: 223px;
+          }
+
+          .order__form_house, .order__form_floor, .order__form_frame, .order__form_apartment {
+            width: 106px;
+          }
+        }
+      }
+
+      .order__form_block {
+        width: 450px;
+
+        .order__form_radios {
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px;
+
+          label {
+            display: flex;
+            align-items: center;
+            margin-right: 24px;
+            cursor: pointer;
+
+            .order__form_radio {
+              display: none;
+            }
+          }
+
+          span {
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            background: #FFFFFF;
+            position: relative;
+            border-radius: 50%;
+            margin-right: 10px;
+          }
+        }
+
+        .order__form_checkbox {
+          input {
+            display: none;
+          }
+          span {
+            width: 23px;
+            height: 23px;
+            display: inline-block;
+            background: #FFFFFF;
+            position: relative;
+            border-radius: 4px;
+            margin-right: 8px;
+            vertical-align: middle;
+            cursor: pointer;
+          }
+          label {
+            display: inline-block;
+            vertical-align: middle;
+            cursor: pointer;
+          }
+        }
+        .order__form_actions {
+          margin-top: 44px;
+          display: flex;
+          align-items: center;
+          .order__form_action.send__button {
+            margin-right: 15px;
+            padding: 20px;
+          }
+          .order__form_action.clear__button {
+            outline: 0;
+            border: 0;
+            background: transparent;
+            font-family: 'PlayRegular', sans-serif;
+            font-size: 16px;
+            color: #FFFFFF;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    label {
+      font-family: 'PlayRegular', sans-serif;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FFFFFF;
+
+      .order__form_input {
+        width: 100%;
+        margin-top: 6px;
+        margin-bottom: 14px;
+        padding: 17px 20px;
+        box-sizing: border-box;
+        border: 3px solid transparent;
+        border-radius: 4px;
+        outline: 0;
+        transition: .3s;
+
+        &:focus, &:active {
+          border: 3px solid #E01F3D;
+        }
+      }
+
+      .order__form_textarea {
+        width: 100%;
+        height: 155px;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 3px solid transparent;
+        border-radius: 4px;
+        outline: none;
+        margin-bottom: 36px;
+        resize: none;
+        transition: .3s;
+        margin-top: 6px;
+
+        &:focus, &:active {
+          border: 3px solid #E01F3D;
+        }
+      }
+    }
+  }
+}
+
+.order__form_radio:checked + span::before { /* <-- ставим иконку, когда чекбокс включен  */
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(50% - 6.5px);
+  left: calc(50% - 6.5px);
+  background: #E01F3D;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.order__form_checkbox input:checked + span::before { /* <-- ставим иконку, когда чекбокс включен  */
+  content: url("../../img/vector.svg");
+  position: absolute;
+  top: 0;
+  left: 7px;
+}

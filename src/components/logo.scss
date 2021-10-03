@@ -1,0 +1,20 @@
+.logo {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    .logo__link {
+        display: block;
+        svg {
+            fill: #E01F3D;
+            transition: .3s;
+        }
+    }
+    &:hover {
+        .logo__link {
+            svg {
+                fill: #CA1B36;
+            }
+        }
+    }
+}

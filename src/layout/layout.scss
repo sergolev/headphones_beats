@@ -1,0 +1,73 @@
+@font-face {
+    src: url("../../fonts/AlegreyaSans-Regular.ttf");
+    font-family: 'AlegreyaSansRegular';
+}
+
+@font-face {
+    src: url("../../fonts/playbold.ttf");
+    font-family: 'PlayBold';
+}
+
+@font-face {
+    src: url("../../fonts/playregular.ttf");
+    font-family: 'PlayRegular';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'AlegreyaSansRegular', sans-serif;
+    background: #FFFFFF;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.wrapper_main {
+    background-color: #F5F5F5;
+}
+
+.main__container {
+    max-width: 915px;
+    position: relative;
+    .main__rectangle {
+        width: 46.32px;
+        height: 10.38px;
+        background: #C4C4C4;
+        transform: rotate(-45deg);
+        position: absolute;
+        bottom: -4px;
+        right: 25px;
+        z-index: 10;
+    }
+}
+
+.advantages__container {
+    max-width: 915px;
+}
+
+.section__title {
+    font-family: 'PlayBold', sans-serif;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #292929;
+}

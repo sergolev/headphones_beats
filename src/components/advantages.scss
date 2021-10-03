@@ -1,0 +1,66 @@
+.advantages {
+    background: #FFFFFF;
+    .advantages__container {
+        padding: 101px 0 89px 0;
+        position: relative;
+        .advantages__text {
+            font-family: 'PlayRegular', sans-serif;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #666666;
+            max-width: 590px;
+            margin: 18px auto 62px auto;
+        }
+        .advantages__items {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            .advantage {
+                display: flex;
+                align-items: center;
+                width: 276px;
+                flex-direction: column;
+                text-align: center;
+                .advantage__image {
+                    width: 128px;
+                    height: 128px;
+                    background: #F2F5F4;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    svg {
+                        fill: #000;
+                    }
+                }
+                .advantage__title {
+                    margin-top: 24px;
+                    font-family: 'PlayBold', sans-serif;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #292929;
+                }
+                .advantage__text {
+                    font-family: 'PlayRegular', sans-serif;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #666666;
+                    margin-top: 7px;
+                    max-width: 247px;
+                }
+            }
+            .advantage__points {
+                width: 67px;
+                margin-top: 60px;
+            }
+        }
+        .advantages__rectangle {
+            position: absolute;
+            z-index: 10;
+            bottom: -13px;
+            left: -20px;
+        }
+    }
+}
+

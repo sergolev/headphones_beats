@@ -1,0 +1,26 @@
+.site-address {
+    font-style: normal;
+    .site-address__link {
+        display: flex;
+        align-items: center;
+        font-family: 'PlayRegular', sans-serif;
+        font-size: 18px;
+        color: #292929;
+        text-decoration: none;
+        svg {
+            margin-right: 6px;
+        }
+    }
+    .site-address__schedule {
+        font-family: 'PlayRegular', sans-serif;
+        font-size: 18px;
+        color: #292929;
+        text-decoration: none;
+    }
+}
+
+.footer .site-address__schedule {
+    margin-bottom: 3px;
+}
+
+
